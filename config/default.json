@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://barbershop:barbershop-app@barbershop-dk24v.gcp.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://barbershop:barbershop-app@barbershop-dk24v.gcp.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }
