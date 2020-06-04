@@ -65,7 +65,7 @@ router.post(
         },
       };
 
-      // Sign the token, pass-in the payload, pass-in the secret, optional expire time, then the callback function who throw the err iff err and send back to client the token if there is token
+      // Sign the token, pass-in the payload, pass-in the secret, optional expire time, then the callback function throw the err if err or send back to client the token
       jwt.sign(
         payload,
         config.get('jwtSecret'),
