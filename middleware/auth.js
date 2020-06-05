@@ -24,3 +24,5 @@ module.exports = (req, res, next) => {
     res.send(401).json('Token is not valid');
   }
 };
+
+// Le middleware valide le token
