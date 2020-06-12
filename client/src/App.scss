@@ -1,0 +1,80 @@
+$white: rgb(255, 255, 255);
+$gold: rgb(98, 92, 2);
+$hgold: rgba(98, 92, 2, 0.746);
+$black: black;
+$font1: 'Poppins', sans-serif;
+
+html {
+  background-color: $black;
+  width: 100vw;
+  height: 100vh;
+}
+
+/*Landing Page*/
+
+.navbar {
+  font-family: $font1;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: $white;
+  padding: 0.45rem;
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
+.navbar li :hover {
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+
+  background-color: $gold;
+  border-radius: 5px;
+}
+.navbar i {
+  margin-right: 5px;
+}
+
+.landingP {
+  text-align: center;
+}
+
+.landingP img {
+  margin-top: 5%;
+}
+
+.landingP a {
+  display: block;
+  text-decoration: none;
+  color: $white;
+  font-family: $font1;
+  font-size: 2.5rem;
+  background-color: $black;
+  margin-top: 2.5%;
+  width: 30%;
+  border: solid 2px $gold;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: linear-gradient(to right, $gold 50%, black 50%);
+  background-size: 200% 100%;
+  transition: all 1s ease-out;
+  background-position: right bottom;
+}
+
+.landingP a:hover {
+  background-position: left bottom;
+}

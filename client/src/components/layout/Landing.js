@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
+import logo from '../../img/logo.png';
 
 export class Landing extends Component {
   render() {
     return (
-      <div>
-        <h1>Landing page</h1>
-      </div>
+      <section className='landingP'>
+        <div>
+          <img src={logo} alt='logo' />
+        </div>
+
+        <a href='/'>Inscris toi</a>
+      </section>
     );
   }
 }
