@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../../img/logo.png';
+import { Link } from 'react-router-dom';
 
 export class Landing extends Component {
   render() {
@@ -9,7 +10,7 @@ export class Landing extends Component {
           <img src={logo} alt='logo' />
         </div>
 
-        <a href='/'>Inscris toi</a>
+        <Link to='/register'>Inscris toi</Link>
       </section>
     );
   }

@@ -1,25 +1,26 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export class Navbar extends Component {
   render() {
     return (
       <nav className='navbar '>
         <h1>
-          <a href='index.html'>
+          <Link to='/'>
             <i class='fas fa-cut'></i>Sakalli Barber App
-          </a>
+          </Link>
         </h1>
         <ul className='navbarBtns'>
           <li>
-            <a href='/'>A propos</a>
+            <Link to='!#'>A propos</Link>
           </li>
           <li>
-            <a href='/'>Gallerie</a>
+            <Link to='!#'>Galerie</Link>
           </li>
           <li>
-            <a href='/'>
+            <Link to='/login'>
               <i class='fas fa-sign-in-alt'></i>Connexion
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

@@ -78,3 +78,17 @@ html {
 .landingP a:hover {
   background-position: left bottom;
 }
+
+.login {
+  color: $white;
+}
+
+.register {
+  color: $white;
+}
+
+.container {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
