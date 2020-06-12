@@ -1,8 +1,21 @@
-import React, { Component } from 'react';
+import React, { Fragment, Component } from 'react';
 
 export class Register extends Component {
   render() {
-    return <div className='register'>Register</div>;
+    return (
+      <Fragment>
+        <section>
+          <h1>Inscription</h1>
+          <p>Crée ton compte</p>
+          <form>
+            <input />
+            <input />
+            <input />
+            <input />
+          </form>
+        </section>
+      </Fragment>
+    );
   }
 }
 
